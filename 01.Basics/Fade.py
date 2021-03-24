@@ -1,7 +1,7 @@
 """
   Fade
 
-  This example shows how to fade an LED on GPIO 27.
+  This example shows how to fade an LED on GPIO 27
 """
 
 from machine import Pin, PWM
