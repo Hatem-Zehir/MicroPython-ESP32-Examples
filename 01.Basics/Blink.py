@@ -1,7 +1,7 @@
 """
   Blink
 
-  Turns an LED on for one second, then off for one second, repeatedly.
+  Turns an LED (GPIO 27) on for one second, then off for one second, repeatedly.
 """
 
 import time
