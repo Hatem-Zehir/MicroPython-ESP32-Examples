@@ -31,3 +31,12 @@ Built-In Examples are sketches found in the Arduino Software (IDE); to access th
 # What is MicroPython?
 MicroPython is a re-implementation of Python 3 that is designed for use with microcontrollers and embedded systems. Standard Python and MicroPython are very similar. If you know how to program in Python, you'll be able to program in MicroPython as well.
 Using MicroPython to program the ESP32 board is a perfect way to get the best out of it. The ESP32 chip, on the other hand, is an excellent medium for using MicroPython.
+
+# Requirements
+To begin, you'll need a board with an ESP32 chip. The ESP32 chip is supported by the MicroPython software, and any board should work. The most important feature of a board is how the GPIO pins are connected to the outside world, as well as whether it has a built-in USB-serial converter to connect the UART to your PC.
+
+# Flash/Upload MicroPython Firmware to ESP32
+Make sure you install uPyCraft IDE on your computer:
+- [uPyCraft IDE for Windows](https://github.com/DFRobot/uPyCraft/raw/master/uPyCraft.exe)
+- [uPyCraft IDE for MAC OS X](https://github.com/DFRobot/uPyCraft_src)
+- [uPyCraft IDE for Linux](https://github.com/DFRobot/uPyCraft_src)
