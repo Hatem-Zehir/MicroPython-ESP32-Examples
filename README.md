@@ -69,7 +69,9 @@ Select all these options to flash the ESP32 board:
 * Firmware: Select "Users" and choose the .bin file downloaded earlier
 ![flash-firmware-esp32-prepare](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/flash-firmware-esp32-prepare.png)
 Having all the settings selected, hold-down the "BOOT/FLASH" button in your ESP32 board. While holding down the “BOOT/FLASH“, click the “ok” button in the burn firmware window:
+
 ![OK-update-firmware-esp32](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/OK-update-firmware-esp32.png)
+
 When the "EraseFlash" process begins, you can release the "BOOT/FLASH" button. After a few seconds, the firmware will be flashed into your ESP32 board.
 
 # Further Reading
