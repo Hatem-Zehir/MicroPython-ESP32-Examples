@@ -22,3 +22,8 @@ Built-In Examples are sketches found in the Arduino Software (IDE); to access th
 - [Calibration](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Calibration.py): Define a maximum and minimum for expected analog sensor values.
 - [Fading](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Fading.py): Use an analog output (PWM pin) to fade an LED.
 - [Smoothing](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Smoothing.py): Smooth multiple readings of an analog input.
+
+### 04.Communication
+- [ASCIITable](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/04.Communication/ASCIITable.py): Demonstrates Arduino's advanced serial output functions.
+- [Dimmer](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/04.Communication/Dimmer.py): Move the mouse to change the brightness of an LED.
+- [Physical Pixel](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/04.Communication/PhysicalPixel.py): Turn a LED on and off by sending data to your Arduino from Processing or Max/MSP.
