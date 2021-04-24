@@ -52,25 +52,41 @@ The first step is to get the most recent MicroPython firmware.bin file and load 
 ## Deploying the firmware
 ### Selecting Serial Port
 Go to Tools > Serial and select your ESP32 COM port (in our case it’s COM3).
-![uPyCraft-IDE-Select-Serial-Port-COM3](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Serial-Port-COM3.png)
+
+<p align="center">
+  <img  src="https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Serial-Port-COM3.png">
+</p>
 
 ### Selecting the Board
 Go to Tools > Board. make sure you select the "esp32" option:
-![uPyCraft-IDE-Select-Board-ESP32](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Board-ESP32.png)
+
+<p align="center">
+  <img  src="https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Board-ESP32.png">
+</p>
 
 ### Flashing/Uploading MicroPython Firmware
 Finally, go to Tools > BurnFirmware menu to flash your ESP32 with MicroPython.
-![uPyCraft-IDE-Tools-burn-Firmware](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Tools-burn-Firmware.png)
+
+<p align="center">
+  <img  src="https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Tools-burn-Firmware.png">
+</p>
+
 Select all these options to flash the ESP32 board:
 * board: esp32
 * burn_addr: 0x1000
 * erase_flash: yes
 * com: COM3
 * Firmware: Select "Users" and choose the .bin file downloaded earlier
-![flash-firmware-esp32-prepare](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/flash-firmware-esp32-prepare.png)
+
+<p align="center">
+  <img  src="https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/flash-firmware-esp32-prepare.png">
+</p>
+
 Having all the settings selected, hold-down the "BOOT/FLASH" button in your ESP32 board. While holding down the “BOOT/FLASH“, click the “ok” button in the burn firmware window:
 
-![OK-update-firmware-esp32](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/OK-update-firmware-esp32.png)
+<p align="center">
+  <img  src="https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/OK-update-firmware-esp32.png">
+</p>
 
 When the "EraseFlash" process begins, you can release the "BOOT/FLASH" button. After a few seconds, the firmware will be flashed into your ESP32 board.
 
