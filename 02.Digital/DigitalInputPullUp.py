@@ -1,7 +1,7 @@
 """
     Input Pull-up Serial
 
-    This example demonstrates the use of pinMode(INPUT_PULLUP). It reads a digital
+    This example demonstrates the use of Pin.PULL_UP. It reads a digital
     input on pin 2 and prints the results to the Serial Monitor.
 
     The circuit:
