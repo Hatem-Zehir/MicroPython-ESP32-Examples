@@ -40,3 +40,20 @@ Make sure you install uPyCraft IDE on your computer:
 - [uPyCraft IDE for Windows](https://github.com/DFRobot/uPyCraft/raw/master/uPyCraft.exe)
 - [uPyCraft IDE for MAC OS X](https://github.com/DFRobot/uPyCraft_src)
 - [uPyCraft IDE for Linux](https://github.com/DFRobot/uPyCraft_src)
+
+You can easily flash your ESP32 board with MicroPython firmware if you have the uPyCraft IDE installed on your computer.
+
+## Getting the firmware
+The first step is to get the most recent MicroPython firmware.bin file and load it onto your ESP32 device. It's available for download on the [MicroPython downloads page](https://micropython.org/download/esp32/). You have three options:
+- Stable firmware builds
+- Daily firmware builds
+- Daily firmware builds with SPIRAM support
+
+## Deploying the firmware
+### Selecting Serial Port
+Go to Tools > Serial and select your ESP32 COM port (in our case it’s COM3).
+![uPyCraft-IDE-Select-Serial-Port-COM3](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Serial-Port-COM3.png)
+
+### Selecting the Board
+Go to Tools > Board. make sure you select the "esp32" option:
+![uPyCraft-IDE-Select-Board-ESP32](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/assets/uPyCraft-IDE-Select-Board-ESP32.png)
