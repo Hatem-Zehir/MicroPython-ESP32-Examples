@@ -10,3 +10,15 @@ Built-In Examples are sketches found in the Arduino Software (IDE); to access th
 - [Digital Read Serial](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/01.Basics/DigitalReadSerial.py): Read a switch, print the state out to the Arduino Serial Monitor.
 - [Fade](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/01.Basics/Fade.py): Demonstrates the use of analog output to fade an LED.
 - [Read Analog Voltage](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/01.Basics/ReadAnalogVoltage.py): Reads an analog input and prints the voltage to the Serial Monitor.
+
+### 02.Digital
+- [Blink Without Delay](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/02.Digital/BlinkWithoutDelay.py): Blink an LED without using the delay() function.
+- [Button](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/02.Digital/Button.py): Use a pushbutton to control an LED.
+- [Debounce](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/02.Digital/Debounce.py): Read a pushbutton, filtering noise.
+- [Digital Input Pullup](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/02.Digital/DigitalInputPullUp.py): Demonstrates the use of INPUT_PULLUP with pinMode().
+
+### 03.Analog
+- [Analog In Out Serial](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/AnalogInOutSerial.py): Read an analog input pin, map the result, and then use that data to dim or brighten an LED.
+- [Calibration](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Calibration.py): Define a maximum and minimum for expected analog sensor values.
+- [Fading](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Fading.py): Use an analog output (PWM pin) to fade an LED.
+- [Smoothing](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/03.Analog/Smoothing.py): Smooth multiple readings of an analog input.
