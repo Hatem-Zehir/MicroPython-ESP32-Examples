@@ -1,6 +1,13 @@
 # MicroPython-ESP32-Examples
 This repository features the conversion of Arduino built-In examples to MicroPython.
 
+# Software Requirements:
+- Thonny IDE (or your favourite IDE)
+
+# Hardware Requirements:
+- ESP32
+- USB Cable
+
 # What are Arduino built-In Examples?
 Built-In Examples are sketches found in the Arduino Software (IDE); to access them, select File > Examples from the toolbar menu. These easy programs show how to use all of the Arduino's basic commands. They cover anything from the bare minimum of a sketch to digital and analog IO, as well as the use of sensors and displays.
 
