@@ -1,5 +1,5 @@
 # MicroPython-ESP32-Examples
-This repository features the conversion of @arduino built-In examples to @MicroPython.
+This repository features the conversion of @arduino built-In examples to MicroPython.
 
 # Software Requirements:
 - Thonny IDE (or your favourite IDE)
