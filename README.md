@@ -32,6 +32,7 @@ If you're new to Arduino, the built-in examples are an essential resource to hel
 - [Dimmer](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/04.Communication/Dimmer.py): Learn how to adjust the brightness of an LED by moving the mouse.
 - [Physical Pixel](https://github.com/Hatem-Zehir/MicroPython-ESP32-Examples/blob/main/04.Communication/PhysicalPixel.py): Discover how to toggle an LED on and off by transmitting data to your ESP32 from Processing or Max/MSP.
 
+# What is MicroPython
 MicroPython is a specialized version of Python 3, created specifically for use in microcontrollers and embedded systems. While standard Python and MicroPython are similar, the latter is optimized for smaller devices. If you're already familiar with Python, you'll find programming in MicroPython straightforward. Using MicroPython to program the ESP32 board is an excellent way to take full advantage of its capabilities. Furthermore, the ESP32 chip is an ideal platform for using MicroPython, making it easy to develop projects for a variety of applications.
 
 # Requirements
